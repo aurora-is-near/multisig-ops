@@ -1,0 +1,18 @@
+{
+  "proposal": {
+    "description": "Wrap NEAR",
+    "kind": {
+      "FunctionCall": {
+        "receiver_id": "wrap.near",
+        "actions": [
+          {
+            "method_name": "near_deposit",
+            "args": "e30K",
+            "deposit": "125000000000000000000000000",
+            "gas": "100000000000000"
+          }
+        ]
+      }
+    }
+  }
+}

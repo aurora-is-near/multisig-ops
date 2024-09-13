@@ -1,0 +1,18 @@
+{
+  "proposal": {
+    "description": "Stake liquidity in farm",
+    "kind": {
+      "FunctionCall": {
+        "receiver_id": "v2.ref-finance.near",
+        "actions": [
+          {
+            "method_name": "mft_transfer_call",
+            "args": "<base64_args_here>",
+            "deposit": "1",
+            "gas": "200000000000000"
+          }
+        ]
+      }
+    }
+  }
+}

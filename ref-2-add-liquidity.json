@@ -1,0 +1,18 @@
+{
+  "proposal": {
+    "description": "Add liquidity to Ref",
+    "kind": {
+      "FunctionCall": {
+        "receiver_id": "v2.ref-finance.near",
+        "actions": [
+          {
+            "method_name": "add_liquidity",
+            "args": "<base64_args_here>",
+            "deposit": "860000000000000000000",
+            "gas": "200000000000000"
+          }
+        ]
+      }
+    }
+  }
+}
